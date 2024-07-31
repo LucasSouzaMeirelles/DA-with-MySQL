@@ -1,0 +1,1 @@
+select round(avg(datediff(shippedDate, orderDate)*24)) from orders;
